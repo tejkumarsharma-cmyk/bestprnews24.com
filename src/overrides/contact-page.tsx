@@ -14,7 +14,7 @@ export function ContactPageOverride() {
             Reach out for release publishing support, distribution questions, and campaign planning help from our media team.
           </p>
 
-          <div className="mt-10 grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
+          <div className="mt-10">
             <form className="rounded-2xl border border-[#ecd3ee] bg-[#faf6fc] p-5 sm:p-6">
               <div className="grid gap-4 md:grid-cols-2">
                 <input className="h-11 rounded-xl border border-[#dec2e1] bg-white px-4 text-sm outline-none focus:border-[#640D5F]" placeholder="Contact Name *" />
@@ -46,31 +46,7 @@ export function ContactPageOverride() {
               </button>
             </form>
 
-            <div className="space-y-4">
-              <div className="rounded-2xl border border-[#ecd3ee] bg-white p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#a4569a]">Telephone Hours</p>
-                <p className="mt-3 text-sm text-[#4f2a42]">Monday to Friday</p>
-                <p className="text-sm text-[#4f2a42]">8:30am to 5:00pm Pacific (PDT)</p>
-              </div>
 
-              <div className="rounded-2xl border border-[#ecd3ee] bg-white p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#a4569a]">Toll Free Telephone</p>
-                <p className="mt-3 text-sm text-[#4f2a42]">1-888-880-9539</p>
-                <p className="text-sm text-[#4f2a42]">(646) 417-8294</p>
-              </div>
-
-              <div className="rounded-2xl border border-[#ecd3ee] bg-white p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#a4569a]">US Address</p>
-                <p className="mt-3 text-sm text-[#4f2a42]">Suite 1400 - 505 Second Avenue</p>
-                <p className="text-sm text-[#4f2a42]">Seattle, WA 98104, USA</p>
-              </div>
-
-              <div className="rounded-2xl border border-[#ecd3ee] bg-white p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#a4569a]">Canada Address</p>
-                <p className="mt-3 text-sm text-[#4f2a42]">Suite 203 - 901 West 3rd St</p>
-                <p className="text-sm text-[#4f2a42]">North Vancouver, BC V7P 3P9, Canada</p>
-              </div>
-            </div>
           </div>
         </section>
       </main>

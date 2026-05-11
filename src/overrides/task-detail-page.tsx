@@ -47,11 +47,8 @@ export async function TaskDetailPageOverride({ slug }: { task: TaskKey; slug: st
             />
           </div>
 
-          <div className="mt-6 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-[#efdff1] bg-[#faf5fb] px-4 py-3 text-sm">
+            <div className="mt-6 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-[#efdff1] bg-[#faf5fb] px-4 py-3 text-sm">
             <div className="flex flex-wrap items-center gap-3 text-[#5b3554]">
-              <span className="rounded-full bg-[#640D5F] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-white">
-                {new Date(post.publishedAt || Date.now()).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-              </span>
               <span>By {post.authorName || 'Editorial Desk'}</span>
             </div>
             <div className="flex items-center gap-2">

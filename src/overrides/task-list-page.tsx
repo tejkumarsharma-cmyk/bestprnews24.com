@@ -129,8 +129,7 @@ export async function TaskListPageOverride({
                   <p className="mt-4 text-xs font-semibold uppercase tracking-[0.18em] text-[#9a558f]">{getCategoryLabel(post)}</p>
                   <h2 className="mt-2 text-xl font-semibold leading-snug text-[#301339]">{post.title}</h2>
                   <p className="mt-3 text-sm leading-7 text-[#5c3752]">{excerpt(post.summary)}</p>
-                  <div className="mt-5 flex items-center justify-between text-xs text-[#7d5c77]">
-                    <span>{new Date(post.publishedAt || Date.now()).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+                  <div className="mt-5 flex items-center justify-end text-xs text-[#7d5c77]">
                     <span>{post.authorName || 'Editorial Desk'}</span>
                   </div>
                   <Link
@@ -157,9 +156,6 @@ export async function TaskListPageOverride({
           <div className="mt-5 flex flex-wrap gap-3">
             <Link href="/create/mediaDistribution" className="rounded-full bg-[#EB5B00] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#B12C00]">
               Submit Release
-            </Link>
-            <Link href="/pricing" className="rounded-full border border-[#d5bad8] px-5 py-2.5 text-sm font-semibold text-[#640D5F] hover:bg-[#f8eef9]">
-              View Plans
             </Link>
           </div>
         </section>

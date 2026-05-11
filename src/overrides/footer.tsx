@@ -6,7 +6,7 @@ export const FOOTER_OVERRIDE_ENABLED = true
 export function FooterOverride() {
   return (
     <footer className="bg-[#1c062b] text-[#f3def5]">
-      <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 lg:grid-cols-[1.1fr_0.9fr_0.9fr_0.9fr] lg:px-8">
+      <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 lg:grid-cols-[1.1fr_0.9fr_0.9fr] lg:px-8">
         <div>
           <p className="text-xl font-bold text-white">{SITE_CONFIG.name}</p>
           <p className="mt-3 max-w-xs text-sm leading-7 text-[#e2bee6]">
@@ -22,7 +22,6 @@ export function FooterOverride() {
           <div className="mt-4 flex flex-col gap-3 text-sm">
             <Link href="/about" className="hover:text-white">About Us</Link>
             <Link href="/contact" className="hover:text-white">Contact</Link>
-            <Link href="/pricing" className="hover:text-white">Pricing</Link>
             <Link href="/updates" className="hover:text-white">Latest News</Link>
           </div>
         </div>
@@ -34,15 +33,6 @@ export function FooterOverride() {
             <Link href="/search" className="hover:text-white">Search</Link>
             <Link href="/terms" className="hover:text-white">Terms</Link>
             <Link href="/privacy" className="hover:text-white">Privacy</Link>
-          </div>
-        </div>
-
-        <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#FFCC00]">Contact</p>
-          <div className="mt-4 space-y-2 text-sm">
-            <p>support@bestprnews24.com</p>
-            <p>+1 (888) 880-9539</p>
-            <p>Seattle, WA</p>
           </div>
         </div>
       </div>

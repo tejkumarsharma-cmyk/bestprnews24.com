@@ -104,12 +104,6 @@ export async function HomePageOverride() {
                   Launch Now
                   <ArrowRight className="h-4 w-4" />
                 </Link>
-                <Link
-                  href="/pricing"
-                  className="inline-flex rounded-full border border-white/25 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
-                >
-                  View Pricing
-                </Link>
               </div>
             </div>
 
